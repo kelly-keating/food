@@ -7,7 +7,7 @@ var app = express()
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: false }))
-app.use(bodyParser.json())
+// app.use(bodyParser.json())
 app.engine('hbs', hbs({
   defaultLayout: 'main',
   extname: 'hbs'
