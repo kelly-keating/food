@@ -1,7 +1,12 @@
 body {
   background-color: #BCAF8A;
-  color: lime;
+  color: black;
   font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
 }
 
 #cakes{
@@ -25,6 +30,6 @@ body {
 
 .tile img{
   max-width: 120px;
-  max-height: 120px;
-  margin: 15px;
+  max-height: 100px;
+  margin: auto;
 }

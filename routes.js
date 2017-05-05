@@ -29,7 +29,6 @@ router.get('/newcake', (req,res) => {
 })
 
 // var cakesCopy
-module.exports = router
 //
 // router.post('/newcake', (req,res) =>{
 //   fs.writeFile('./recipes.json', JSON.stringify(req.body), (err) => {
@@ -38,3 +37,6 @@ module.exports = router
 //      console.log(err);
 //    } else res.redirect(`/cakes/${req.params.id}`)
 //  })
+
+
+module.exports = router
