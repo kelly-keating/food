@@ -1,0 +1,35 @@
+{ "name": "cakes",
+  "imgUrl" : "#",
+"foods":
+  [
+    { "id" : 1,
+    "name" : "Chocolate Cake",
+    "chef": "Bob",
+    "ingredients": ["Flour", "Sugar"],
+    "method": "Mix everything. Bake it. Eat it."
+    },
+
+    { "id": 2,
+      "name" : "Carrot Cake",
+    "chef": "Steve",
+    "ingredients": ["Flour", "Sugar"],
+    "method": "Mix everything. Bake it. Eat it."
+    },
+
+    { "id": 3,
+      "name" : "Fruit Cake",
+    "chef": "Jenny",
+    "ingredients": ["Flour", "Sugar"],
+    "method": "Mix everything. Bake it. Eat it."
+    },
+
+    { "id": 4,
+      "name" : "Banana Cake",
+    "chef": "Cindy",
+    "ingredients": ["Flour", "Sugar"],
+    "method": "Mix everything. Bake it. Eat it."
+  }
+]
+
+
+}
