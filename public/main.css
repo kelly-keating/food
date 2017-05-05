@@ -1,13 +1,13 @@
 body {
   background-color: #BCAF8A;
   color: lime;
-  font-family: , sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 #cakes{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center
+  justify-content: center;
 }
 
 .tile{
@@ -24,5 +24,11 @@ body {
 }
 
 .tile img{
-  width: 120px;
+  max-width: 120px;
+  max-height: 120px;
+  margin: 15px;
+}
+
+.tile h3{
+  bottom: 0px
 }
