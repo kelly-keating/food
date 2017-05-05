@@ -4,7 +4,7 @@ var fs = require('fs')
 
 module.exports = router
 
-var tempData = [{title:'Cake', imgURL:'http://matthewpalmer.net/rocket/icon.png'}, {title:'Dessert', imgURL:'http://matthewpalmer.net/rocket/icon.png'}, {title:'Pies', imgURL:'http://matthewpalmer.net/rocket/icon.png'}]
+var tempData = [{name:'Cake', imgUrl:'http://matthewpalmer.net/rocket/icon.png'}, {name:'Dessert', imgUrl:'http://matthewpalmer.net/rocket/icon.png'}, {name:'Pies', imgUrl:'http://matthewpalmer.net/rocket/icon.png'}]
 
 router.get('/', (req, res) => {
   console.log("rendering home");

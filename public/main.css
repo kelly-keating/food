@@ -1,20 +1,28 @@
 body {
-  background-color: #691286;
+  background-color: #BCAF8A;
   color: lime;
+  font-family: , sans-serif;
 }
 
-#sections{
-  background-color: yellow;
-
+#foods{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
 }
 
 .tile{
-  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  background-color: #155765;
+  border-radius: 20px;
+  color: white;
   width: 150px;
   height: 170px;
-  margin: auto;
+  border: 5px solid white;
 }
 
-#sections img{
+.tile img{
   width: 120px;
 }
