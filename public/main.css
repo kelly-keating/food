@@ -4,7 +4,7 @@ body {
   font-family: , sans-serif;
 }
 
-#foods{
+#cakes{
   display: flex;
   flex-wrap: wrap;
   justify-content: center
