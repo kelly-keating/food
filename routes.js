@@ -14,18 +14,18 @@ router.get('/', (req, res) => {
     res.render('home') //give all results
 })
 
-router.get('/:id', (req, res) => {
-  var cakes = recipes.foods.find((cakes)=> req.params.id == cakes.id)
-  console.log(cakes);
-  res.render('home', {cakes})
-})
-
-
-// router.get('/cakes/:id', (req, res) =>{
-//   var id = req.params.id
-//   recipes.find(function(recipe) {
-//     if (recipe.id == id) {
-//       res.render('home', {recipe})
-//     }
-//   })
+// router.get('/cakes/:id', (req, res) => {
+//   var cakes = recipes.foods.find((cakes)=> req.params.id == cakes.id)
+//   console.log(cakes);
+//   res.render('home', {cakes})
 // })
+
+
+router.get('/cakes/:id', (req, res) => {
+  var id = req.params.id
+  recipes.find(function(recipe) {
+    if (recipe.id == id) {
+      res.render('showcake', recipe)
+    }
+  })
+})

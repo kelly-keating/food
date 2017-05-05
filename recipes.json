@@ -1,10 +1,9 @@
-{ "name": "cakes",
-  "imgUrl" : "#",
-"foods":
+
   [
     { "id" : 1,
     "name" : "Chocolate Cake",
     "chef": "Bob",
+    "img": "https://d3awvtnmmsvyot.cloudfront.net/api/file/Jqoi44f2S6aGO6RXDja1/convert?fit=max&w=1450&quality=60&cache=true&rotate=exif&compress=true",
     "ingredients": ["Flour", "Sugar"],
     "method": "Mix everything. Bake it. Eat it."
     },
@@ -12,6 +11,7 @@
     { "id": 2,
       "name" : "Carrot Cake",
     "chef": "Steve",
+    "img": "https://i.ytimg.com/vi/JVLJ_pCQqVg/maxresdefault.jpg",
     "ingredients": ["Flour", "Sugar"],
     "method": "Mix everything. Bake it. Eat it."
     },
@@ -19,6 +19,7 @@
     { "id": 3,
       "name" : "Fruit Cake",
     "chef": "Jenny",
+    "img": "https://static.homesandproperty.co.uk/s3fs-public/thumbnails/image/2015/11/25/13/620-fruit-cake.jpg",
     "ingredients": ["Flour", "Sugar"],
     "method": "Mix everything. Bake it. Eat it."
     },
@@ -26,10 +27,8 @@
     { "id": 4,
       "name" : "Banana Cake",
     "chef": "Cindy",
+    "img": "http://www.mylittlelarder.com/wp-content/uploads/2016/08/banana-cake-7-683x1024.jpg",
     "ingredients": ["Flour", "Sugar"],
     "method": "Mix everything. Bake it. Eat it."
   }
 ]
-
-
-}
