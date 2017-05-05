@@ -25,3 +25,17 @@ router.get('/cakes/:id', (req, res) => {
     res.send('couldnt find it')
   }
 })
+
+router.get('/newcake', (req,res) => {
+  res.render('newcake')
+})
+
+var cakesCopy
+
+router.post('/newcake', (req,res) =>{
+  fs.writeFile('./recipes.json', JSON.stringify(req.body), (err) => {
+  recipes.push(req.body)
+   if (err) {
+     console.log(err);
+   } else res.redirect(`/cakes/${req.params.id}`)
+ })
