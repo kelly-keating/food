@@ -6,9 +6,12 @@ var recipes = require('./recipes.json')
 module.exports = router
 
 router.get('/', (req, res) => {
-    res.render('home')
+    res.redirect('/cakes')
 })
 
+router.get('/cakes', (req, res) => {
+  res.render('home', {recipes})
+})
 
 router.get('/cakes/:id', (req, res) => {
   var id = req.params.id
